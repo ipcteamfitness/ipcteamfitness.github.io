@@ -1,0 +1,362 @@
+﻿/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 10px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+p a {
+    color: #BBB;
+    text-decoration: underline;
+}
+
+.mobile-show {
+    display: none;
+}
+
+.navbar {
+    font-size: 16px;
+}    
+
+.nav {
+    background-color:#FFFFFF;
+}
+
+.navbar-social i {
+    color: #000000;
+}
+
+    .navbar-social i:hover {
+        color: #FF0000;
+    }
+
+.navbar-brand {
+    padding-top: 10px;
+}
+
+.nav-cta {
+    width: 125px;
+    height: 125px;
+    background-color: #FF0000;
+    border-radius: 75px;
+    text-align: center;
+    border: solid 5px #FF0000;
+    font-family: Montserrat, sans-serif;
+}
+
+    .nav-cta:hover {
+        background-color: black;
+    }
+
+.nav-cta-text {
+    padding-top: 45px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.image-row {
+    display: block;
+    margin: 20px 0 20px 0;
+    background-image: url(/assets//img/front-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.image-row-container {
+    padding: 50px 200px 50px 200px;
+    background-color: rgba(255,255,255,.5);
+}
+
+.carousel-indicators {
+    padding-bottom: 30px;
+}
+
+.pre-page-widget {
+    text-align: center;
+    color: #EEE;
+    padding: 120px 0px 10px 0px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.trainer-widget {
+    background: #3F3F3F; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2F2F2F, #5A5A5F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2F2F2F, #5A5A5F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2F2F2F, #5A5A5F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2F2F2F, #5A5A5F); /* Standard syntax */
+    color: #BBBBBB;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#front-page-cta {
+    padding: 20px;
+}
+
+.trainer-widget h3 {
+    font-size: 20px;
+}
+
+.trainer-widget h4 {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 125%;
+}
+
+.trainer-widget h5 {
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 125%;
+}
+
+.nav-logo {
+    max-width: 90px;
+}
+
+.no-float {
+    float: none;
+}
+
+.fa {
+    color: white;
+    padding-top: 10px;
+}
+
+.fa-4x, .fa-2x {
+    padding-top: 7px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.main-body-extra-pad {
+    padding-bottom: 30px;
+}
+
+.trainer-section h1,
+.trainer-section h2 {
+    padding-top: 30px;
+}
+
+
+.offer-details {
+    text-align: left;
+    margin: 40px 5px 20px 5px;
+}
+
+    .offer-details a {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+        .offer-details a:hover {
+            text-decoration: none;
+        }
+
+        .offer-details a h2,
+        .offer-details a h3 {
+            display: inline;
+            text-align: left;
+        }
+
+    .offer-details .fa {
+        padding-right: 15px;
+        display: inline-block;
+        text-align: left;
+    }
+
+#map {
+    height: 400px;
+}
+
+@media (min-width: 768px) {
+    #main-header {
+        height: 100px;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 2px;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+
+    .mobile-show {
+        display: inherit;
+    }
+
+    .navbar-header {
+        padding-left: 5px;
+    }
+
+    #carousel {
+        margin-top: 100px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
+
+    .image-row {
+        display: block;
+        margin: 20px 0 20px 0;
+    }
+
+    .pre-page-widget {
+        padding: 70px 0px 30px 0px;
+    }    
+
+    .navbar-toggle {
+        margin: 15px;
+    }
+
+        .navbar-toggle.navbar-left {
+            float: left;
+            margin-left: 10px;
+        }
+
+    .navbar-right {
+        float: right;
+        margin-right: 10px;
+    }
+
+    .nav-logo {
+        max-width: 90px;
+    }
+
+    .nav-cta {
+        max-height: 80px;
+        max-width: 80px;
+    }
+
+    .nav-cta-text {
+        font-size: 10px;
+        padding-top: 15px;
+    }
+
+    .intro-video {
+        padding-top: 40px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    .trainer-widget {
+        margin: 5px;
+        padding: 20px 5px 15px 5px;
+    }
+
+    .trainer-widget-body {
+        padding: 5px;
+    }
+
+    .navbar-img {
+        display: none;
+    }
+
+    .navbar-social i {
+        color: #FF0000;
+        font-size: 24px;
+    }
+
+        .navbar-social i:hover {
+            color: #000000;
+        }
+
+    .main-body-extra-pad {
+        padding-bottom: 25px;
+    }
+
+    .offer-details {
+        margin: 40px 5px 20px 5px;
+    }
+
+        .offer-details h2 {
+            font-size: 24px;
+        }
+
+        .offer-details h3 {
+            font-size: 14px;
+        }
+
+        .offer-details span {
+        }
+
+    #promotion-cta {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .navbar-social {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 380px) {
+    .trainer-widget h5 {
+        font-size: 11px;
+    }
+
+    .navbar-social {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .navbar-cta {
+        padding-right: 10px;
+    }
+
+    .nav-cta {
+        width: 100px;
+        height: 100px;
+        border: solid 3px #FF0000;
+    }
+
+    .nav-cta-text {
+        padding-top: 20px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+}
